@@ -14,7 +14,7 @@ if [ $0 != "-bash" ]; then
 fi
 
 PROG_DIR="$(basename $PWD)"
-if [ "$PROG_DIR" != "UnitTestsPractice" ]; then
+if [ "$PROG_DIR" != "Tutorial-UnitTests" ]; then
     echo "ERROR :: Must run setup script from top level directory (UnitTestsPractice)"
     echo "INFO :: Currently running from $PROG_DIR"
     return
